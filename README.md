@@ -110,17 +110,6 @@ Full-stack application implementing CRUD operations using ORM patterns, demonstr
 
 </div>
 
----
-
-## Professional Experience
-
-**Teaching Assistant** | Universidad del Valle de Guatemala | Jan 2025 - Aug 2025
-- Provided weekly support to 30+ students in Introduction to Computer Science
-- Conducted code reviews and graded programming assignments
-- Collaborated with faculty to optimize teaching materials and methodologies
-- Facilitated understanding of fundamental programming concepts
-
----
 
 ## Education
 
