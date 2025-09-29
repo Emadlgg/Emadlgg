@@ -102,11 +102,11 @@ Full-stack application implementing CRUD operations using ORM patterns, demonstr
 
 <div align="center">
   
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=TU-USUARIO&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Emadlgg&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=TU-USUARIO&layout=compact&theme=tokyonight&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Emadlgg&layout=compact&theme=tokyonight&hide_border=true)
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=TU-USUARIO&theme=tokyonight&hide_border=true)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Emadlgg&theme=tokyonight&hide_border=true)
 
 </div>
 
@@ -134,7 +134,7 @@ Centro Educativo Técnico Laboral Kinal | 2017 - 2022
 
 ## Connect With Me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](tu-linkedin)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/osman-edlg)
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://portafolio-cyan-zeta.vercel.app)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:osmanemanuel2004@gmail.com)
 
@@ -155,6 +155,6 @@ Centro Educativo Técnico Laboral Kinal | 2017 - 2022
 
 ---
 
-![Profile Views](https://komarev.com/ghpvc/?username=TU-USUARIO&color=blueviolet&style=flat-square)
+![Profile Views](https://komarev.com/ghpvc/?username=Emadlgg&color=blueviolet&style=flat-square)
 
 </div>
