@@ -9,7 +9,7 @@ Computer Science student at Universidad del Valle de Guatemala, focused on build
 ## About Me
 
 - Computer Science & IT Engineering student at Universidad del Valle de Guatemala (2023 - Present)
-- Former Teaching Assistant for Introduction to Computer Science (Jan - Aug 2025)
+- Former Teaching Assistant for Introduction to Computer Science (Jan - Jun 2025)
 - Specialized in full-stack web development with emphasis on user-centered design
 - Passionate about creating tools that connect with people and generate authentic value
 - Based in Guatemala
