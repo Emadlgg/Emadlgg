@@ -57,47 +57,6 @@ Computer Science student at Universidad del Valle de Guatemala, focused on build
 
 ---
 
-## Featured Projects
-
-### MoneyFlow - Personal Finance Management Platform
-**Status:** In Development | **Type:** Academic Project
-
-A comprehensive web application for personal financial management with user authentication and interactive data visualization.
-
-**Key Features:**
-- Secure user authentication system
-- Interactive financial charts and graphs
-- Real-time data visualization
-- Responsive design
-
-**Tech Stack:** React, Node.js, Express, MySQL
-
----
-
-### Personal Portfolio
-**Live:** [portafolio-cyan-zeta.vercel.app](https://portafolio-cyan-zeta.vercel.app)
-
-Personal website showcasing my philosophy on the intersection of technology and humanity, featuring project highlights and technical skills.
-
-**Tech Stack:** HTML, CSS, JavaScript, Vue | Deployed on Vercel
-
----
-
-### Database Management System with ORM
-**Type:** Academic Project
-
-Full-stack application implementing CRUD operations using ORM patterns, demonstrating database design best practices and clean code architecture.
-
-**Key Features:**
-- Complete CRUD functionality
-- ORM implementation
-- Design patterns application
-- Relational database modeling
-
-**Tech Stack:** Python, ORM, PostgreSQL
-
----
-
 ## GitHub Statistics
 
 <div align="center">
