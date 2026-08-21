@@ -1,15 +1,20 @@
 <div align="center">
 
-# Osman de León
+# 👋 Hi, I'm Osman de León
 
 ### Full Stack Developer · QA Engineer · Computer Science Student
 
 🇬🇹 Guatemala · 🎓 Universidad del Valle de Guatemala
 
-I build software across the stack and enjoy going deeper than the framework — from APIs and databases to compilers, graphics, testing, and protocols.
+I enjoy building software end-to-end and going beyond the framework — from interfaces and APIs to databases, testing, compilers, graphics, and protocols.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-4FBF88?style=flat-square\&logo=vercel\&logoColor=white)](https://portafolio-oedlg.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/osman-edlg)
+`Build` · `Test` · `Understand` · `Improve`
+
+<br>
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-4FBF88?style=for-the-badge\&logo=vercel\&logoColor=white)](https://portafolio-oedlg.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/osman-edlg)
+[![Repositories](https://img.shields.io/badge/GitHub-Repositories-181717?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/Emadlgg?tab=repositories)
 
 </div>
 
@@ -20,13 +25,14 @@ I build software across the stack and enjoy going deeper than the framework — 
 ```text
 osman@github:~$ whoami
 
-focus      → Full Stack Development · Software Quality
+role       → Full Stack Developer & QA Engineer
+education  → Computer Science & IT Engineering @ UVG
+focus      → Web Apps · REST APIs · Software Quality
 interests  → Compilers · Graphics · Databases · AI · Systems
-experience → React · Node.js · REST APIs · QA · UAT · E2E
-languages  → Spanish (Native) · English (B1)
+location   → Guatemala 🇬🇹
 ```
 
-Currently studying **Computer Science & IT Engineering at UVG** and interested in projects that require me to understand how things work, not just how to use them.
+I like projects that make me understand **how things work underneath the abstraction**, whether that means building a parser, implementing a renderer, modeling data as a graph, or testing a complete product flow.
 
 ---
 
@@ -38,13 +44,21 @@ Compiler construction toolkit inspired by **Lex/Yacc**, implementing lexer gener
 
 `Python` · `Compilers` · `Automata` · `Parsing`
 
+**Highlights:** NFA → DFA · lexer generation · LR parsing · parser visualization
 🚧 Currently extending the pipeline with **semantic analysis**. · [Demo →](https://youtu.be/i4ffWxEBaM0)
+
+---
 
 ### 🌌 [3D Solar System](https://github.com/Emadlgg/rust-solar-system)
 
 Interactive solar system built with a **custom software renderer in Rust**, including rasterization, Z-buffering, procedural shaders, orbital simulation, culling, and 3D navigation.
 
-`Rust` · `Software Rendering` · `3D Graphics` · `Shaders` · [Demo →](https://youtu.be/Ba7nvaB2LQQ)
+`Rust` · `Software Rendering` · `3D Graphics` · `Shaders`
+
+**Highlights:** custom rendering pipeline · procedural shaders · orbital simulation · optimization
+[Demo →](https://youtu.be/Ba7nvaB2LQQ)
+
+---
 
 ### 🤖 [MCP Chatbot](https://github.com/Emadlgg/mcp-chatbot)
 
@@ -52,14 +66,20 @@ Gemini-powered assistant with a **custom MCP client implemented manually over JS
 
 `Python` · `MCP` · `JSON-RPC 2.0` · `Gemini` · `SQLite`
 
+**Highlights:** manual MCP client · function calling · tool discovery · local MCP server
+
+---
+
 ### 🔗 [Supply Chain Graph](https://github.com/Emadlgg/supply-chain-graph)
 
 Full-stack supply chain platform using **Neo4j** to model relationships between suppliers, manufacturers, products, and distribution centers.
 
 `React` · `Express` · `Neo4j AuraDB` · `REST API`
 
+**Highlights:** graph data modeling · REST API · full-stack architecture
+
 <details>
-<summary><b>More projects</b></summary>
+<summary><b>🧩 More projects</b></summary>
 
 <br>
 
@@ -75,13 +95,17 @@ Full-stack supply chain platform using **Neo4j** to model relationships between 
 
 ## 💼 Experience
 
-**Tigo — Apprentice, Full Stack Development & QA** · `Feb 2026 — Aug 2026`
+### Tigo
+
+**Apprentice — Full Stack Development & QA** · `Feb 2026 — Aug 2026`
 
 Worked on an internal QA tool across frontend, backend, API validation, relational databases, UAT, and end-to-end testing.
 
 `React` · `Node.js` · `Express` · `REST APIs` · `Docker` · `SQL` · `GitLab`
 
-**Teaching Assistant @ Universidad del Valle de Guatemala**
+### Universidad del Valle de Guatemala
+
+**Teaching Assistant**
 
 * **Algorithms & Basic Programming** · 2026
 * **Introduction to Computer Engineering** · 2025 · supported 30+ students
@@ -98,6 +122,27 @@ Worked on an internal QA tool across frontend, backend, API validation, relation
 | **Databases** | PostgreSQL · MySQL · SQL Server · MongoDB · Neo4j        |
 | **Quality**   | API Testing · E2E · UAT                                  |
 | **Tools**     | Git · GitHub · GitLab · Docker · Vercel                  |
+
+---
+
+## 🧠 Currently Exploring
+
+```text
+Software Engineering
+├── Software Architecture
+├── Containers & DevOps
+├── API Design & Testing
+│
+Computer Science
+├── Compiler Construction
+├── Computer Graphics
+├── AI & Data
+└── Graph Databases
+```
+
+<p align="center">
+  <i>Spanish — Native · English — Intermediate (B1)</i>
+</p>
 
 ---
 
