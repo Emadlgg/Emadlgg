@@ -1,20 +1,22 @@
-# Hi, I'm Osman de León 👋
+<div align="center">
+
+# 👋 Hi, I'm Osman de León
 
 ### Full Stack Developer · QA Engineer · Computer Science Student
 
-🇬🇹 **Based in Guatemala** · 🎓 **Computer Science & IT Engineering @ UVG**
+🇬🇹 Guatemala · 🎓 Universidad del Valle de Guatemala
 
-I enjoy working across the software lifecycle — from building interfaces and REST APIs to testing flows, working with databases, and understanding what is happening underneath the abstraction.
+I enjoy building software end-to-end — from interfaces and APIs to databases, testing, and deployment — while understanding what happens underneath the abstractions.
 
-`Full Stack Development` · `Software Quality` · `Databases` · `Data` · `Software Engineering`
+`Full Stack` · `Software Quality` · `Compilers` · `Computer Graphics` · `Databases` · `AI & Data`
 
-<p align="center">
-  <a href="https://portafolio-oedlg.vercel.app"><b>🌐 Portfolio</b></a>
-  &nbsp;&nbsp;•&nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/osman-edlg"><b>💼 LinkedIn</b></a>
-  &nbsp;&nbsp;•&nbsp;&nbsp;
-  <a href="https://github.com/Emadlgg?tab=repositories"><b>📂 Repositories</b></a>
-</p>
+<br>
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-4FBF88?style=for-the-badge\&logo=vercel\&logoColor=white)](https://portafolio-oedlg.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/osman-edlg)
+[![GitHub](https://img.shields.io/badge/GitHub-Emadlgg-181717?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/Emadlgg)
+
+</div>
 
 ---
 
@@ -27,97 +29,200 @@ Role       → Full Stack Developer & QA Engineer
 Education  → Computer Science & IT Engineering @ UVG
 Location   → Guatemala 🇬🇹
 
-I like building software end-to-end, testing how it behaves,
-and understanding why things work — not just making them work.
+Building   → Web Apps · REST APIs · Developer Tools
+Testing    → API Testing · E2E · UAT · QA
+Exploring  → Compilers · Graphics · AI · Distributed Systems
 
-Spanish    → Native
-English    → Intermediate (B1)
+I like building things, testing how they behave,
+and understanding why they work.
 ```
 
 ---
 
-## 🚀 Featured Work
+# 🚀 Featured Projects
 
-### `01 /` 🔗 Electronics Supply Chain Graph
+## ⚙️ [Compiler Toolkit — YALex + YAPar](https://github.com/Emadlgg/compiler-toolkit)
 
-A full-stack supply chain management system modeled as a **graph**, designed to represent relationships between suppliers, manufacturers, products, and distribution centers.
+Compiler construction toolkit inspired by **Lex/Yacc**, built from scratch in Python.
 
-`React` · `Express` · `Neo4j` · `AuraDB` · `REST API`
-
-**What I worked with:** graph data modeling · API design · full-stack development
-
----
-
-### `02 /` 🎮 The Backrooms Escape
-
-A **2.5D game** built in Rust around a custom raycasting engine rather than a traditional game engine.
-
-`Rust` · `Raylib`
-
-**Under the hood:** raycasting renderer · textures & sprites · collision detection · multiple levels · dynamic audio
-
----
-
-### `03 /` ⚙️ YALex — Lexical Analyzer Generator
-
-A lexical analyzer generator built in Python from YALex specifications, implementing the automata pipeline behind lexical analysis.
-
-`Python` · `Automata Theory` · `Compilers`
+Implements lexical and syntactic analysis through finite automata and multiple parsing strategies.
 
 ```text
-YALex → Regular Expressions → NFA → DFA → Lexical Analyzer
+YALex
+  ↓
+Regular Expressions
+  ↓
+Thompson Construction
+  ↓
+NFA → DFA
+  ↓
+Lexer
+  ↓
+YAPar
+  ↓
+FIRST / FOLLOW
+  ↓
+LR(0)
+  ↓
+LL(1) · SLR(1) · LALR
+  ↓
+Parser
 ```
 
-<details>
-<summary><b>More projects</b></summary>
-<br>
+Includes an IDE-style GUI for visualizing tokens, automata, parsing tables, parser execution, and syntax errors.
 
-### 🎬 Movie Explorer
+`Python` · `Compilers` · `Automata` · `LL(1)` · `SLR(1)` · `LALR`
 
-Web application for exploring movies through the **TMDB API**, featuring infinite scrolling and simulated authentication.
+> 🚧 **Active development:** currently extending the compiler pipeline with semantic analysis.
 
-`Angular` · `TypeScript` · `Tailwind CSS` · `TMDB API`
+[Repository →](https://github.com/Emadlgg/compiler-toolkit) · [Video Demo →](https://youtu.be/i4ffWxEBaM0)
 
-### 🌐 Presence Website
+---
 
-Corporate website using **Notion as a headless CMS** for dynamic content management and production deployment.
+## 🌌 [Interactive 3D Solar System](https://github.com/Emadlgg/rust-solar-system)
 
-`Next.js` · `Notion API` · `Vercel`
+Interactive solar system rendered **from scratch in Rust using a custom software renderer**.
 
-</details>
+Built without relying on a traditional 3D engine and implements core graphics concepts directly.
+
+**Highlights**
+
+* Custom Model → World → View → Projection pipeline
+* Triangle rasterization and Z-buffer
+* Procedural multi-layer shaders
+* Fractal Brownian Motion and custom noise
+* Orbital simulation and 3D navigation
+* Frustum and distance culling
+* Dynamic Level of Detail
+* Collision detection
+
+`Rust` · `Software Rendering` · `3D Graphics` · `Procedural Shaders`
+
+[Repository →](https://github.com/Emadlgg/rust-solar-system) · [Video Demo →](https://youtu.be/Ba7nvaB2LQQ)
+
+---
+
+## 🤖 [MCP Chatbot](https://github.com/Emadlgg/mcp-chatbot)
+
+LLM-powered automotive assistant built around a **manually implemented Model Context Protocol client**.
+
+Instead of relying on an MCP SDK, the project implements the protocol communication directly through **JSON-RPC 2.0**.
+
+```text
+User
+ ↓
+Gemini
+ ↓
+Function Calling
+ ↓
+MCP Host
+ ↓
+Custom MCP Client
+ ↓
+JSON-RPC 2.0
+ ↓
+MCP Server
+ ↓
+SQLite
+```
+
+Supports tool discovery and execution for vehicle search, financing simulation, vehicle details, and test-drive scheduling.
+
+`Python` · `MCP` · `JSON-RPC 2.0` · `Gemini` · `SQLite`
+
+[Repository →](https://github.com/Emadlgg/mcp-chatbot)
+
+---
+
+## 🔗 [Supply Chain Graph](https://github.com/Emadlgg/supply-chain-graph)
+
+Full-stack supply chain management platform modeled using a **graph database**.
+
+Represents relationships between suppliers, manufacturers, components, products, and distribution centers using Neo4j.
+
+`React` · `Express` · `Neo4j AuraDB` · `REST API`
+
+[Repository →](https://github.com/Emadlgg/supply-chain-graph)
+
+---
+
+## 🎮 [The Backrooms Escape](https://github.com/Emadlgg/rust-raycasting-engine)
+
+2.5D game built in Rust around a **custom raycasting engine**.
+
+Features textured rendering, animated sprites, collision detection, spatial audio, and multi-level progression.
+
+`Rust` · `Raycasting` · `Raylib` · `Game Development`
+
+[Repository →](https://github.com/Emadlgg/rust-raycasting-engine)
+
+---
+
+## 🎵 [Music Recommendation System](https://github.com/Emadlgg/music-recommendation-ml)
+
+Music recommendation system combining supervised machine learning with probabilistic inference over Spotify audio features.
+
+Explores and compares:
+
+`KNN` · `Decision Trees` · `SVM` · `Bayesian Networks` · `Variable Elimination`
+
+Built using a dataset of **114,000 Spotify tracks across 114 genres**.
+
+`Python` · `Machine Learning` · `Bayesian Networks` · `scikit-learn`
+
+[Repository →](https://github.com/Emadlgg/music-recommendation-ml) · [Video Demo →](https://youtu.be/NzsMGKM9M6M)
 
 ---
 
 ## 💼 Experience
 
-### 🟦 Tigo — Apprentice
+### Tigo
 
-**Full Stack Development & QA** · `Feb 2026 — Aug 2026`
+**Apprentice — Full Stack Development & QA**
+`Feb 2026 — Aug 2026`
 
-Worked on the development and validation of an internal QA tool for product testing, contributing across both frontend and backend.
+Worked across development and quality assurance on an internal product-testing tool.
 
-`React` · `Node.js` · `Express` · `REST APIs` · `Docker` · `SQL` · `GitLab`
+* Developed frontend and backend functionality with **React, Node.js and Express**
+* Built and validated testing flows using existing **REST APIs**
+* Validated complete product flows against a **UAT environment**
+* Worked with relational databases for QA and data validation
+* Performed **end-to-end testing**
+* Documented test cases and results for traceability
+* Used **Docker, Git and GitLab**
 
-* Built and validated product-testing flows against a **UAT environment**.
-* Worked with existing **REST APIs** and relational databases for QA and data validation.
-* Performed **end-to-end testing** and documented test cases and results for traceability.
-* Used Git/GitLab for version control and technical issue resolution.
+---
+
+## 🎓 Beyond Code
+
+### Teaching Assistant — Algorithms & Basic Programming
+
+**Universidad del Valle de Guatemala · 2026**
+
+Supported students with programming fundamentals, algorithms, and problem solving.
+
+### Teaching Assistant — Introduction to Computer Engineering
+
+**Universidad del Valle de Guatemala · 2025**
+
+Provided academic and technical support to **30+ students** during laboratory sessions.
 
 ---
 
 ## ⚡ What I Work With
 
-| Area          | Technologies                                             |
+|               | Technologies                                             |
 | ------------- | -------------------------------------------------------- |
+| **Languages** | JavaScript · TypeScript · Python · Java · C++ · Rust · R |
 | **Frontend**  | React · Next.js · Angular · Vue.js                       |
 | **Backend**   | Node.js · Express · Django · Flask · REST APIs           |
 | **Quality**   | API Testing · E2E Testing · UAT                          |
 | **Databases** | PostgreSQL · MySQL · SQL Server · MongoDB · Neo4j        |
-| **Languages** | JavaScript · TypeScript · Python · Java · C++ · Rust · R |
 | **Tools**     | Git · GitHub · GitLab · Docker · Vercel                  |
 
 <details>
 <summary><b>🧰 Tech badges</b></summary>
+
 <br>
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-000?style=flat-square\&logo=javascript)
@@ -145,18 +250,6 @@ Worked on the development and validation of an internal QA tool for product test
 
 ---
 
-## 🎓 Beyond Code
-
-**Teaching Assistant — Algorithms & Basic Programming** · UVG · `2026`
-Supported students with programming fundamentals, algorithms, and problem solving.
-
-**Teaching Assistant — Introduction to Computer Engineering** · UVG · `2025`
-Provided academic and technical support to **30+ students** during laboratory sessions.
-
-Teaching has also pushed me to become better at explaining technical ideas clearly — not only understanding them myself.
-
----
-
 ## 🧠 `$ cat interests.txt`
 
 ```text
@@ -164,10 +257,11 @@ osman@github:~$ cat interests.txt
 
 > full-stack development
 > software quality & API testing
+> compiler construction
+> computer graphics
 > relational, NoSQL & graph databases
-> data analysis
+> artificial intelligence & data
 > software architecture
-> containers & DevOps
 > projects that force me to learn something new
 
 osman@github:~$ _
@@ -175,22 +269,24 @@ osman@github:~$ _
 
 ---
 
-## 🤝 Let's Connect
+## 🌎 Languages
 
-I'm always interested in learning, collaborating on projects, and connecting with people who enjoy building software.
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Osman_de_León-0077B5?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/osman-edlg)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit_Website-000000?style=for-the-badge\&logo=vercel\&logoColor=white)](https://portafolio-oedlg.vercel.app)
-[![GitHub](https://img.shields.io/badge/GitHub-Emadlgg-181717?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/Emadlgg)
-
-</div>
+🇬🇹 **Spanish** — Native
+🇺🇸 **English** — Intermediate (B1)
 
 ---
 
 <div align="center">
 
-### Build · Test · Understand · Improve.
+## 🤝 Let's Connect
+
+I'm always interested in learning, collaborating on projects, and connecting with people who enjoy building software.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Osman_de_León-0077B5?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/osman-edlg)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit_Website-4FBF88?style=for-the-badge\&logo=vercel\&logoColor=white)](https://portafolio-oedlg.vercel.app)
+
+<br><br>
+
+### `Build · Test · Understand · Improve.`
 
 </div>
